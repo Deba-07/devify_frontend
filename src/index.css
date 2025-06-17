@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* index.css */
+
+/* Smooth transition between themes */
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light mode styles */
+html.light body {
+  background-color: #f9fafb;
+  color: #1f2937;
+}
+
+/* Dark mode styles */
+html.dark body {
+  background-color: #0f172a;
+  color: #f1f5f9;
+}
+
+/* Optional: Card backgrounds for components */
+html.light .card {
+  background-color: #ffffff;
+  color: #1f2937;
+}
+
+html.dark .card {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
